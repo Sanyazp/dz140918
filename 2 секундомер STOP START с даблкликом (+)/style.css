@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+}
+
+section {
+    position: relative;
+    border-radius: 50%;
+    background: #c0c0c0;
+    width: 500px;
+    height: 500px;
+}
+
+span.dot {
+    border-radius: 50%;
+    position: absolute;
+    width: 16px;
+    top: calc(50% - 8px);
+    left: calc(50% - 8px);
+    height: 16px;
+    background: #ffffff;
+}
+
+div.seconds {
+    position: absolute;
+    width: 4px;
+    top: 0px;
+    left: calc(50% - 2px);
+    height: 250px;
+    background: #ffffff;
+    transform-origin: bottom;
+}
+
+article {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

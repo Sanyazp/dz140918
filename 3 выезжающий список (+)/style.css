@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    background: #c0c0c0;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    margin: 25px;
+}
+
+div {
+    display: flex;
+    background: #ffffff;
+    align-items: center;
+    flex-direction: column;
+    height: 60px;
+    width: 500px;
+    border: 2px solid #000000;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 3s linear;
+}
+
+section {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+article {
+    margin-top: 50px;
+    display: block;
+    height: 60%;
+    justify-content: space-around;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.checked {
+    height: 500px;
+}
